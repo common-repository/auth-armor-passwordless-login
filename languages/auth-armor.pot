@@ -1,0 +1,326 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Auth Armor – Passwordless Login\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-31 12:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: auth-armor"
+
+#: includes/class-auth-armor-public.php:410
+msgid ""
+"After you have installed the app, Please create an Auth Armor account. \n"
+"\t\t\t\t\t\t\t\t\tIf you already have the app installed, please continue to "
+"the next step."
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:124
+msgid ""
+"After you have installed the app, Please create an Auth Armor account. If "
+"you already have the app installed, please continue to the next step."
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:139
+msgid "and sign in with your newly created account."
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:182
+msgid "API key"
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:186
+msgid "API Secret key"
+msgstr ""
+
+#: includes/class-auth-armor-public.php:400
+#: includes/admin/class-auth-armor-wizard.php:113
+msgid "AppStore"
+msgstr ""
+
+#: includes/admin/class-auth-armor-admin.php:55
+msgid "Auth Armor - No Password"
+msgstr ""
+
+#: includes/admin/class-auth-armor-settings.php:32
+#: includes/admin/class-auth-armor-settings.php:41
+msgid "Auth Armor Setting"
+msgstr ""
+
+#: includes/admin/class-auth-armor-settings.php:56
+msgid "Auth Armor Settings"
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:29
+#: includes/admin/class-auth-armor-wizard.php:38
+#: includes/admin/class-auth-armor-wizard.php:53
+msgid "Auth Armor Setup Wizard"
+msgstr ""
+
+#. Author of the plugin
+msgid "Auth Armor Technologies, Inc"
+msgstr ""
+
+#. Name of the plugin
+msgid "Auth Armor – Passwordless Login"
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:144
+#: includes/admin/class-auth-armor-wizard.php:169
+msgid "Choose workforce or consumer edition"
+msgstr ""
+
+#: includes/admin/class-auth-armor-admin.php:93
+msgid ""
+"Click to show the QR code. You scan save/send this image. It can then be "
+"scanned in the app to invite users."
+msgstr ""
+
+#: includes/admin/class-auth-armor-admin.php:105
+msgid "Copy"
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:122
+msgid "Create an account"
+msgstr ""
+
+#: includes/admin/class-auth-armor-admin.php:100
+msgid "Date Expires:"
+msgstr ""
+
+#: includes/admin/class-auth-armor-admin.php:52
+msgid "Default - Using Password"
+msgstr ""
+
+#: includes/admin/class-auth-armor-admin.php:53
+msgid "Default WordPress user create type"
+msgstr ""
+
+#: includes/class-auth-armor-public.php:474
+#: includes/admin/class-auth-armor-wizard.php:255
+msgid "Device Confirmed! You can now login."
+msgstr ""
+
+#: includes/class-auth-armor-public.php:432
+#: includes/admin/class-auth-armor-wizard.php:208
+msgid "Do not share it."
+msgstr ""
+
+#: includes/class-auth-armor-public.php:462
+#: includes/admin/class-auth-armor-wizard.php:243
+msgid "Don't receive the push message? Scan this QR code instead."
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:107
+msgid "Download the app"
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:105
+msgid "Download the Auth Armor Authenticator"
+msgstr ""
+
+#: includes/class-auth-armor-public.php:396
+#: includes/admin/class-auth-armor-wizard.php:109
+msgid ""
+"Download the Auth Armor Authenticator App and install on your mobile device. "
+"If you already have the app installed, continue to step2. You can load the "
+"app using the links below."
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:146
+msgid ""
+"During registration, you will be presented with a choice to choose workforce "
+"or consumer protection. Once you setup one or the other, you can always "
+"configure both at a later step."
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:179
+msgid "Enter API Key and API Secret key"
+msgstr ""
+
+#: includes/class-auth-armor-public.php:443
+#: includes/admin/class-auth-armor-wizard.php:224
+msgid ""
+"Follow the instrucations on your device and enroll. Once successfully "
+"enrolled, we just need to confirm your devices has been setup correctly."
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:171
+msgid "Generate an API credentials and checkout our api located at"
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:166
+msgid "Get API Key"
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:171
+msgid "https://api.authanywhere.autharmor.com"
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:139
+msgid "https://dashboard.autharmor.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.autharmor.com"
+msgstr ""
+
+#: includes/admin/class-auth-armor-admin.php:91
+msgid "Invite Created successfully!"
+msgstr ""
+
+#: includes/admin/class-auth-armor-admin.php:103
+msgid "Invite Link :"
+msgstr ""
+
+#: includes/admin/class-auth-armor-admin.php:56
+msgid ""
+"It will send invitation to use on email. User can link Auth Armor account "
+"from invitation link"
+msgstr ""
+
+#: includes/class-auth-armor-public.php:450
+#: includes/admin/class-auth-armor-wizard.php:231
+msgid "Last step, we need to confirm your device setup."
+msgstr ""
+
+#: includes/admin/class-auth-armor-admin.php:48
+msgid "Login Type"
+msgstr ""
+
+#: includes/admin/class-auth-armor-settings.php:181
+msgid "Login Type 1"
+msgstr ""
+
+#: includes/admin/class-auth-armor-settings.php:182
+msgid "Login Type 2"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Login using your phone without passwords! More secure, faster and best of "
+"all, nothing to remember or type in!"
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:155
+msgid "Make your first project"
+msgstr ""
+
+#: includes/class-auth-armor-public.php:487
+#: includes/admin/class-auth-armor-wizard.php:268
+msgid "Next"
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:139
+msgid ""
+"Once app is installed and the account has been created at Auth Armor, head "
+"over to "
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:157
+msgid ""
+"Once you have registered, you will need to create a project. Workforce "
+"accounts have a project created by default."
+msgstr ""
+
+#: includes/class-auth-armor-public.php:403
+#: includes/admin/class-auth-armor-wizard.php:116
+msgid "Playstore"
+msgstr ""
+
+#: includes/class-auth-armor-public.php:389
+msgid "Please follow the steps below to configure your mobile device."
+msgstr ""
+
+#: includes/class-auth-armor-public.php:486
+#: includes/admin/class-auth-armor-wizard.php:267
+msgid "Prev"
+msgstr ""
+
+#: includes/class-auth-armor-public.php:488
+msgid "Proceed to login"
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:137
+msgid "Register at Dashboard"
+msgstr ""
+
+#: includes/class-auth-armor-public.php:433
+#: includes/admin/class-auth-armor-admin.php:108
+#: includes/admin/class-auth-armor-wizard.php:213
+msgid "Revoke and Re-generate :"
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:270
+msgid "Save & Go to Settings"
+msgstr ""
+
+#: includes/class-auth-armor-public.php:428
+#: includes/admin/class-auth-armor-wizard.php:204
+msgid "Scan me!"
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:135
+msgid "Setup your Auth Armor developer account"
+msgstr ""
+
+#: includes/admin/class-auth-armor-wizard.php:54
+msgid "Skip Setup"
+msgstr ""
+
+#: includes/class-auth-armor-public.php:394
+msgid "Step 1"
+msgstr ""
+
+#: includes/class-auth-armor-public.php:408
+msgid "Step 2"
+msgstr ""
+
+#: includes/class-auth-armor-public.php:432
+#: includes/admin/class-auth-armor-wizard.php:208
+msgid "This QR code is just for you."
+msgstr ""
+
+#: includes/class-auth-armor-public.php:423
+#: includes/admin/class-auth-armor-wizard.php:197
+msgid ""
+"Use the Auth Armor Authenticator app to scan your QR Code then enroll your "
+"mobile device."
+msgstr ""
+
+#: includes/admin/class-auth-armor-settings.php:181
+msgid ""
+"Username + Password + Login with Auth Armor (Push Message and QR Code) "
+"(mixed mode)"
+msgstr ""
+
+#: includes/admin/class-auth-armor-settings.php:182
+msgid ""
+"Username-less (no username) – Just a “Login with Auth Armor” button, and a "
+"QR code. No push message - Auth Armor Only mode"
+msgstr ""
+
+#: includes/class-auth-armor-public.php:454
+#: includes/admin/class-auth-armor-wizard.php:235
+msgid "Verify With Username"
+msgstr ""
+
+#: includes/class-auth-armor-public.php:457
+#: includes/admin/class-auth-armor-wizard.php:238
+msgid ""
+"We have sent you a push message using Auth Armor app. Once you receive the "
+"push message, please approve the request. This will confirm your device "
+"setup."
+msgstr ""
+
+#: includes/class-auth-armor-public.php:388
+msgid "Your account hase been configured to use login without password!"
+msgstr ""

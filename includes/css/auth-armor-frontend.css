@@ -1,0 +1,262 @@
+.step{
+    display: none;
+}
+.active {
+    display: inherit;
+}
+.setup_form {
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 100%;
+    margin-top: 60px;
+}
+.setup_form > h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.setup_form .step {
+    background: white;
+    box-shadow: 0 0 7px rgb(0 0 0 / 5%);
+    padding: 55px 30px 30px 30px;
+    border-radius: 10px;
+    position: relative;
+}
+.setup_form .step label {
+    font-weight: bold;
+    font-size: 22px;
+    color: #323232;
+    margin-bottom: 15px !important;
+    display: block;
+}
+.setup_form .step .sub-step.sub-step-form .step-btn-input label {
+    font-size: 16px;
+    margin-bottom: 5px !important;
+}
+.setup_form .step .sub-step {
+    margin-bottom: 20px;
+}
+.setup_form .step .sub-step label {
+    font-size: 20px;
+    margin-bottom: 5px !important;
+}
+.setup_form .step .sub-step-input{
+    margin-bottom: 15px;
+}
+.setup_form .step .sub-step p {
+    font-size: 16px;
+    color: #323232;
+    line-height: 21px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.setup_form .step .sub-step.sub-step-row {
+    display: flex;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+}
+.setup_form .step .sub-step.sub-step-row .sub-step-text-col {
+    padding: 0 15px;
+    width: calc(100% - 350px);
+}
+.setup_form .step .sub-step.sub-step-row .sub-step-img-col {
+    width: 350px;
+    padding: 0 15px;
+}
+.setup_form .step:after {
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: -24px;
+    width: 305px;
+    height: 50px;
+    background: #2db4b4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgb(0 0 0 / 5%);
+    letter-spacing: 0.5px;
+}
+.setup_form .step-1:after {
+    content: 'Login without Passwords!';
+}
+.setup_form .step-2:after {
+    content: 'Setup your mobile device!';
+}
+.setup_form .step-3:after {
+    content: 'We are almost done!';
+}
+.setup_form .step .step-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.setup_form .step .step-btn a img {
+    width: 140px;
+    margin-right: 15px;
+}
+.setup_form .step .sub-step.sub-step-row .sub-step-text-col .sub-step {
+    margin-bottom: 80px;
+}
+.setup_form .step-btn-bottom-wrap {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.setup_form .step-btn-bottom-wrap a {
+    background: #2db4b4;
+    padding: 9px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+.setup_form .step .sub-step.sub-step-form .step-btn-input {
+    margin-bottom: 15px;
+}
+.setup_form .step .sub-step.sub-step-form label {
+    margin-bottom: 16px !important;
+}
+label{
+    cursor: default !important;
+}
+
+.toplevel_page_autharmor_setup_wizard .submit{
+    display:none;
+}
+.setup_form .step .sub-step p a {
+    color: #2db4b4;
+    font-weight: 500;
+}
+.setup_form .step .sub-step p a:hover {
+    text-decoration: underline;
+}
+.setup_form .step .sub-step.sub-step-form .step-btn-input input {
+    width: 356px;
+}
+.loader{
+    display: none;
+}
+.auth-armor-setup .site{
+    display: none !important;
+}
+span.skip_setup {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+span.skip_setup a {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 16px;
+    color: #2db4b4;
+}
+
+span.skip_setup a:hover {
+    text-decoration: none;
+}
+.setup_form .invite-btn-main{
+    background: #2db4b4;
+    padding: 9px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0px;
+    cursor: pointer;
+}
+.qr-error-msg {
+    font-size: 14px;
+    font-weight: 600;
+    color: green;
+}
+.step-btn .verify_acc_detail {
+    background: #2db4b4;
+    padding: 18px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0px;
+    cursor: pointer;
+}
+.setup_form .step label.maintitle {
+    margin-bottom: 0 !important;
+    text-align: center;
+}
+.setup_form .step label.subtitle {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+.setup_form .step .sub-step label.step-text-new {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background: #2db4b4;
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgb(0 0 0 / 5%);
+    letter-spacing: 0.5px;
+    padding: 3px 20px;
+    margin-bottom: 20px !important;
+}
+.setup_form .step.step-2.step .sub-step.sub-step-row {
+    flex-wrap: wrap;
+    margin-top: 95px;
+}
+.setup_form .step.step-2.step .sub-step.sub-step-row .sub-step-text-col.qr-step-msg {
+    text-align: center;
+}
+.setup_form .step.step-2.step .sub-step.sub-step-row .sub-step-text-col:not(.qr-step-msg) {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.invite_code_form .qrlbl {
+    font-size: 20px;
+    font-weight: bold;
+}
+.invite_code_form span.qrdesc {
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 15px;
+}
+.setup_form .step.step-3.step .sub-step-text-col.qr-msg {
+    text-align: center;
+}
+.setup_form .step .sub-step.sub-step-row {
+    margin-top: 60px;
+}
+.setup_form .step.step-3.step .sub-step-text-col.qr-msg .sub-step label {
+    font-size: 16px;
+    font-weight: normal;
+}
+.setup_wizard_form .qr_confirmation_msg {
+    margin-bottom: 50px;
+}
+
+.setup_wizard_form .login_url_step label {
+    color: green !important;
+}
+@media screen and (max-width:767px){
+    .setup_form .step .sub-step.sub-step-row .sub-step-text-col {
+        width: 100%;
+    }
+    .setup_form .step-btn-bottom-wrap {
+        margin: 25px 10px 30px 10px;
+    }
+}

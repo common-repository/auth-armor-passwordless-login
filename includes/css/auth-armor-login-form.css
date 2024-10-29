@@ -1,0 +1,188 @@
+.disabledsection {
+    pointer-events: none;
+    opacity: 0.4;
+}
+.scanner-login-wrapper .align-center
+{
+    text-align: center;  
+}
+.message-auth-error
+{
+    border-left: 4px solid red !important;
+} 
+.scanner-login-wrapper .timer {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 21px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.scanner-login-wrapper .usertimer {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 21px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.scanner-login-wrapper p.status-msg,
+.scanner-login-wrapper p.user-status-msg {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.scanner-login-wrapper .switch {
+    margin: 4rem auto;
+}
+.scanner-login-wrapper .switch {
+    width: 24rem;
+    position: relative;
+}
+.scanner-login-wrapper .switch input {
+    position: absolute;
+    top: 6px;
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer;
+}
+.scanner-login-wrapper .switch input:checked {
+    z-index: 1;
+}
+.scanner-login-wrapper .switch input:checked+label {
+    opacity: 1;
+    cursor: default;
+}
+.scanner-login-wrapper .switch input:not(:checked)+label:hover {
+    opacity: 0.5;
+}
+.scanner-login-wrapper .switch label {
+    color: #fff;
+    opacity: 0.33;
+    transition: opacity 0.25s ease;
+    cursor: pointer;
+}
+.scanner-login-wrapper .switch .toggle-outside {
+    height: 21px;
+    border-radius: 2rem;
+    padding: 0.25rem;
+    overflow: hidden;
+    transition: 0.25s ease all;
+}
+.scanner-login-wrapper .switch .toggle-inside {
+    border-radius: 5rem;
+    background: #ffffff;
+    position: absolute;
+    transition: 0.25s ease all;
+}
+.scanner-login-wrapper .switch--horizontal {
+    width: 100%;
+    height: auto;
+    margin: 15px auto 0;
+    font-size: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.scanner-login-wrapper .switch--horizontal input {
+    height: 30px;
+    width: 58px;
+    left: 50%;
+    margin: 0;
+    transform: translateX(-50%);
+}
+.scanner-login-wrapper .switch--horizontal label {
+    font-size: 14px;
+    display: inline-block;
+    width: 85px;
+    height: auto;
+    color: #333333;
+    text-align: center;
+    margin: 0;
+}
+.scanner-login-wrapper .switch--horizontal .toggle-outside {
+    background: #0073aa;
+    position: absolute;
+    width: 49px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.scanner-login-wrapper .switch--horizontal .toggle-inside {
+    height: 20px;
+    width: 20px;
+}
+.scanner-login-wrapper .switch--horizontal input:checked~.toggle-outside .toggle-inside {
+    left: 5px;
+    top: 4px;
+}
+.scanner-login-wrapper .switch--horizontal input~input:checked~.toggle-outside .toggle-inside {
+    left: 32px;
+}
+.scanner-login-wrapper label.qr_code_login, 
+.scanner-login-wrapper label.default_login, 
+.scanner-login-wrapper label.user_login,
+.scanner-login-wrapper label.qr_code_login_user {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+.scanner-login-wrapper .resend_request {
+    cursor:pointer;
+}
+.scanner-login-wrapper .login_with_username{
+    padding-bottom:25px;
+}
+.scanner-login-wrapper .status-msg-main-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.scanner-login-wrapper .status-msg-main-wrap p.status-msg,
+.scanner-login-wrapper .status-msg-main-wrap p.user-status-msg {
+    width: auto;
+}
+.scanner-login-wrapper .status-msg-main-wrap .refresh_btn_wrap {
+    width: 17px;
+    margin-left: 10px;
+    position: relative;
+    top: 4px;
+}
+.scanner-login-wrapper .status-msg-main-wrap .refresh_btn_wrap img.resend_request {
+    width: 100%;
+}
+.scanner-login-wrapper .separator-div-wrap {
+    position: relative;
+}
+.scanner-login-wrapper .separator-div-wrap h2 {
+    opacity: 0;
+}
+.scanner-login-wrapper .separator-div-wrap:after {
+    content: '';
+    position: absolute;
+    left: -24px;
+    top: 50%;
+    width: calc(100% + 48px);
+    height: 1px;
+    background: #000000;
+    transform: translateY(-50%);
+}
+.scanner-login-wrapper .default-wp-form {
+    margin-top: 15px;
+}
+.scanner-login-wrapper .timeout-wrap{
+    color: red;
+}
+.scanner-login-wrapper .default-wp-form-status {
+    padding: 10px;
+    width: 100%;
+}
+.default-wp-form.login_with_username p.submit {
+    display: inline-block;
+    width: 100%;
+}
